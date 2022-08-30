@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_glue_job" "job_spark" {
   name     = "job_spark"
-  role_arn = "arn:aws:iam::437274056715:role/glue_s3"
+  role_arn = "arn:aws:iam::415:role/glue_s3"
   glue_version = "3.0"
   
 
